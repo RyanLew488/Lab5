@@ -115,6 +115,13 @@
     </Link>
   </ItemDefinitionGroup>
   <ItemGroup>
+    <ClCompile Include="helperFunctions.cpp" />
+    <ClCompile Include="recursionFunctions.cpp" />
+    <ClCompile Include="recursionMain.cpp" />
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="helperFunctions.hpp" />
+    <ClInclude Include="recursionFunctions.hpp" />
   </ItemGroup>
   <Import Project="$(VCTargetsPath)\Microsoft.Cpp.targets" />
   <ImportGroup Label="ExtensionTargets">
